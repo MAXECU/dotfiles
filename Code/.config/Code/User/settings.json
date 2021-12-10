@@ -1,0 +1,21 @@
+{
+     "editor.fontFamily": "JetBrainsMono NF", // Font Family
+    "editor.fontSize": 14, // Font Size
+    "editor.lineHeight": 0,
+    "editor.fontWeight": "Regular",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 0,
+    "editor.lineNumbers": "on",
+    "editor.minimap.enabled": true,
+    "editor.wordWrap": "off",
+    "editor.renderControlCharacters": true,
+    "editor.renderIndentGuides": true,
+    "editor.glyphMargin": false,
+    "files.trimTrailingWhitespace": true,
+    "git.enabled": false,
+    "html.format.wrapLineLength": 0,
+    "html.format.indentInnerHtml": true,
+    "html.format.endWithNewline": true,
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Visual Studio Light"
+}

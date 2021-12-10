@@ -1,0 +1,5 @@
+alias dll='aria2c -s16 -x16'
+alias whatp='firefox --new-window  web.whatsapp.com'
+alias facep='firefox --new-window  www.facebook.com'
+alias fsp='firefox --search'
+alias ytp='firefox --new-window "www.youtube.com/results?search_query="'
