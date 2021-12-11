@@ -4,7 +4,8 @@
 # Base-pacakges
 #--------------
 pacman -Syyu
-pacman -S base-devel  bat git htop swaylock sysstat neomutt zathura-pdf-mupdf qt5ct stow --noconfirm
+pacman -S base-devel zsh bat git htop swaylock sysstat neomutt zathura-pdf-mupdf qt5ct stow --noconfirm
+sudo sh -c "echo $(which zsh) >> /etc/shells" && chsh -s $(which zsh)
 
 # Intel U-code
 #--------------
