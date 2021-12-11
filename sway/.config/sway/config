@@ -27,11 +27,11 @@ set {
 }
 
 # Set some nice 	         colors		   border	    	background	    text	    	indicator	   child_border
-client.focused        	 	$elegant     $cyan		     $elegant	        $white	   	  $cyan
+client.focused        	 	$elegant    	 $cyan		     $elegant	        $white	   	  $cyan
 client.unfocused        	$elegant	   $elegant	      $pink	        	$white	  	  $elegant
-client.focused_inactive 	$elegant     $elegant   	  $acqua	      	$magenta   	  $acqua
+client.focused_inactive 	$elegant 	    $elegant   	  $acqua	      	$magenta   	  $acqua
 client.urgent	          	$elegant	   $magenta       $silver	      	$magenta   	  $magenta
-client.placeholder	      $elegant     $magenta	      $silver	        $white	  	  $magenta
+client.placeholder	        $elegant     $magenta	      $silver	        $white	  	  $magenta
 
 
 # Panel-bar
@@ -156,16 +156,16 @@ input type:touchpad {
 
 # Name the workspaces
 #-----------------------------------------------
-set $workspace1 "1:          "
-set $workspace2 "2:          "
-set $workspace3 "3:          "
-set $workspace4 "4:          "
-set $workspace5 "5:          "
-set $workspace6 "6:          "
-set $workspace7 "7:          "
-set $workspace8 "8: ♫         "
-set $workspace9 "9:          "
-set $workspace0 "10:         "
+set $workspace1 "1:= 1 ="
+set $workspace2 "2:= 2 ="
+set $workspace3 "3:= 3 ="
+set $workspace4 "4:= 4 ="
+set $workspace5 "5:= 5 ="
+set $workspace6 "6:= 6 ="
+set $workspace7 "7:= 7 ="
+set $workspace8 "8:= 8 ="
+set $workspace9 "9:= 9 ="
+set $workspace0 "10:= 10 ="
 
 # Switch to workspace
 #-----------------------------------------------
