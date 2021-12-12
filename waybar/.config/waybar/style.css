@@ -64,6 +64,7 @@
 #mode,
 #network,
 #pulseaudio,
+#backlight,
 #temperature,
 #tray {
     padding-left: 10px;
