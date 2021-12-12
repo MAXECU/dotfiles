@@ -3,9 +3,10 @@
 
 # Base-pacakges
 #--------------
-pacman -Syyu
-pacman -S base-devel zsh bat git htop swaylock sysstat neomutt zathura-pdf-mupdf qt5ct stow --noconfirm
+sudo pacman -Syyu
+sudo pacman -S base-devel zsh bat git htop swaylock sysstat neomutt zathura-pdf-mupdf qt5ct stow --noconfirm
 sudo sh -c "echo $(which zsh) >> /etc/shells" && chsh -s $(which zsh)
+sudo pacman -S wl-clipboard
 
 # Intel U-code
 #--------------
@@ -33,7 +34,7 @@ sudo pacman -S kitty
 
 ## sway-wm
 #--------------
-sudo pacman -S sway i3blocks swayidle waybar swaylock sysstat grim grmishot wlogout slurp  wf-recorder xorg-xwayland xorg-xlsclients qt5-wayland glfw-wayland
+sudo pacman -S sway i3blocks swayidle waybar swaylock sysstat grim wlogout slurp  wf-recorder xorg-xwayland xorg-xlsclients qt5-wayland glfw-wayland
 
 # i3-gaps
 #--------------

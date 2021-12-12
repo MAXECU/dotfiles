@@ -55,26 +55,20 @@
             "critical": 15
         },
         "format": "  {icon}  {capacity}%",
-        "format-discharging": "{icon} {capacity}%",
-        "format-icons": [
-            " ", // Icon: battery-full
-            " ", // Icon: battery-three-quarters
-            " ", // Icon: battery-half
-            " ", // Icon: battery-quarter
-            " "  // Icon: battery-empty
-        ],
+        "format-discharging": "   {capacity}%",
+
         "tooltip": true
     },
 
     "clock#time": {
         "interval": 1,
-        "format": "{:%H:%M:%S}",
+        "format": "{:%H:%M}",
         "tooltip": true
     },
 
     "clock#date": {
       "interval": 10,
-      "format": "  {:%e %b %Y}", // Icon: calendar-alt
+      "format": "    {:%e %b %Y}", // Icon: calendar-alt
       "tooltip-format": "{:%e %B %Y}"
     },
 
@@ -108,7 +102,7 @@
 
     "network": {
         "interval": 5,
-        "format-wifi": "  {essid} ({signalStrength}%)", // Icon: wifi
+        "format-wifi": "   {essid} ({signalStrength}%)", // Icon: wifi
         "format-ethernet": "  {ifname}: {ipaddr}/{cidr}", // Icon: ethernet
         "format-disconnected": "⚠  Disconnected",
         "tooltip-format": "{ifname}: {ipaddr}"

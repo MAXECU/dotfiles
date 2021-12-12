@@ -109,13 +109,18 @@
     animation-duration: 2s;
 }
 
-#clock {
-    font-weight: bold;
+#clock#date {
+
     color:#ffb86c;
 }
 
+#clock#time{
+    color: #21ff6a;
+}
+
+
 #cpu {
-    font-weight: bold;
+
     color: #21ff6a;
 }
 
@@ -145,7 +150,7 @@
 }
 
 #mode {
-    background: #64727D;
+    background: #FFFFFF;
     border-top: 2px solid white;
     /* To compensate for the top border and still have vertical centering */
     padding-bottom: 2px;
@@ -188,7 +193,7 @@
 }
 
 #window {
-    font-weight: bold;
+
 }
 
 #workspaces button {
@@ -197,7 +202,9 @@
     padding-bottom: 2px;
     padding-left: 10px;
     padding-right: 10px;
-    color: #888888;
+    border-radius: 70px;
+    color: #000000;
+    background-color: #FFFFFF;
 }
 
 #workspaces button.focused {

@@ -41,25 +41,15 @@ bar {
         #status_command i3blocks -c ~/.config/i3blocks/config
         position top
         height 40
-        font pango:JetBrainsMono NF Bold 14
-        #font pango:Ubuntu Regular 14
-        colors {
-                background #000000
-                statusline #F8F8F2
-                separator #757575
-                #                  border             background         text
-				focused_workspace  #44475A #44475A #F8F8F2
-				active_workspace   #282A36 #44475A #F8F8F2
-				inactive_workspace #282A36 #282A36 #BFBFBF
-				urgent_workspace   #FF5555 #FF5555 #F8F8F2
-				binding_mode       #FF5555 #FF5555 #F8F8F2
-}
 }
 
+# POLKIT - PASSWORD AUTHENTICATOR
+#
+exec --no-startup-id lxpolkit
 
 #Font
 #-----------------------------------------------
-font pango:Roboto Regular 14
+font pango:Arimo Nerd Font 14
 #font pango:SFMono Medium Nerd Font Complete 14
 
 # Clipboard
@@ -72,9 +62,11 @@ exec wl-paste -t text --watch clipman store --no-persist
 set $gnome-schema org.gnome.desktop.interface
 exec_always {
     gsettings set $gnome-schema gtk-theme 'Matcha-light-azul'
-    gsettings set $gnome-schema icon-theme 'Paprius'
-    gsettings set $gnome-schema font-name 'Roboto Regular 10'
-    gsettings set $gnome-schema document-font-name 'Roboto Regular 10'
+    gsettings set $gnome-schema icon-theme 'Papirus'
+    gsettings set $gnome-schema cursor-theme 'Future-cyan-cursors'
+    gsettings set $gnome-schema cursor-size '50'
+    gsettings set $gnome-schema font-name 'Arimo Nerd Font  12'
+    gsettings set $gnome-schema document-font-name 'Arimo Nerd Font 12'
     gsettings set $gnome-schema monospace-font-name 'JetBrainsMono NF 10'
     gsettings set $gnome-schema monospace-font-name 'JetBrainsMono NF 10'
     gsettings set $gnome-schema text-scaling-factor '1.5'
@@ -97,7 +89,7 @@ exec  easyeffects --gapplication-service
 
 # Wallpaper
 #-----------------------------------------------
-output * bg ~/.config/sway/wallhaven.png fill
+output * bg ~/.config/sway/arch-linux.png fill
 
 # Terminal
 #-----------------------------------------------
@@ -156,16 +148,16 @@ input type:touchpad {
 
 # Name the workspaces
 #-----------------------------------------------
-set $workspace1 "1:= 1 ="
-set $workspace2 "2:= 2 ="
-set $workspace3 "3:= 3 ="
-set $workspace4 "4:= 4 ="
-set $workspace5 "5:= 5 ="
-set $workspace6 "6:= 6 ="
-set $workspace7 "7:= 7 ="
-set $workspace8 "8:= 8 ="
-set $workspace9 "9:= 9 ="
-set $workspace0 "10:= 10 ="
+set $workspace1 "1: 1 ="
+set $workspace2 "2: 2 ="
+set $workspace3 "3: 3 ="
+set $workspace4 "4: 4 ="
+set $workspace5 "5: 5 ="
+set $workspace6 "6: 6 ="
+set $workspace7 "7: 7 ="
+set $workspace8 "8: 8 ="
+set $workspace9 "9: 9 ="
+set $workspace0 "10: 10 ="
 
 # Switch to workspace
 #-----------------------------------------------
