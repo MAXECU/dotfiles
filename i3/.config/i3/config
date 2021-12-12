@@ -8,6 +8,7 @@ set $down j
 set $up k
 set $right l
 
+
 # Panel-bar
 ##-----------------------------------------------
 bar {
@@ -32,11 +33,11 @@ bar {
 
 #Font
 #-----------------------------------------------
-font pango:Roboto Regular 16
+font pango:Arimo Nerd Font 14
 
 # Terminal
 #-----------------------------------------------
-set $term tilix
+set $term alacritty
 bindsym $mod+Return exec $term
 
 # Application-Launcher
@@ -60,10 +61,11 @@ bindsym $mod+Shift+r exec ranger
 #-----------------------------------------------
 set $gnome-schema org.gnome.desktop.interface
 exec    gsettings set $gnome-schema gtk-theme 'Matcha-light-azul'
-exec    gsettings set $gnome-schema icon-theme 'candy-icons'
-exec    gsettings set $gnome-schema cursor-theme 'ArcStarry-cursors'
-exec    gsettings set $gnome-schema font-name 'Roboto Regular 10'
-exec    gsettings set $gnome-schema document-font-name 'Roboto Regular 10'
+exec    gsettings set $gnome-schema icon-theme 'Papirus'
+exec    gsettings set $gnome-schema cursor-theme 'Future-cyan-cursors'
+exec    gsettings set $gnome-schema cursor-size '50'
+exec    gsettings set $gnome-schema font-name 'Arimo Nerd Font 12'
+exec    gsettings set $gnome-schema document-font-name 'Arimo Nerd Font 12'
 exec    gsettings set $gnome-schema monospace-font-name 'JetBrainsMono NF 10'
 exec    gsettings set $gnome-schema monospace-font-name 'JetBrainsMono NF 10'
 exec    gsettings set $gnome-schema text-scaling-factor '1.5'
