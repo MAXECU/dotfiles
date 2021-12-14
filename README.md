@@ -12,13 +12,13 @@ Both desktop manager have same key-bindings so it is easy to work with both syst
 
 ## Current Setup
 
-**OS**: Arch Linux
+**OS**: Manjaro Arch Linux
 
 **Shell**: zsh
 
 **Wayland compositor**: Sway
 
-**Bar**: i3blocks
+**Bar**: waybar
 
 **Terminal**: Alacriity
 
@@ -28,7 +28,7 @@ Both desktop manager have same key-bindings so it is easy to work with both syst
 
 **Ulauncher**: Ulauncher
 
-**Font**: Roboto Regular
+**Font**: Arimo Nerd font
 
 
 ## Hotkeys
@@ -56,21 +56,15 @@ Most of us have  key in laptop !
 | Move Focused windows to desktop/workspace 4	    |  + Shift + 4       |
 
 
-## Better Font Overall system settings:-
-My personal Preference is Roboto + JetBrainsMono Nerd Font
+## Authentication Agent  AKA Polkit
+An authentication agent is used to make the user of a session prove that the user of the session really is the user (by authenticating as the user) or an administrative user (by authenticating as an administrator).
 
-![image](https://user-images.githubusercontent.com/49124888/144489476-ec85615f-ce5e-4289-a17a-8433e078e1a5.png)
+Visual Representation :
+![image](https://user-images.githubusercontent.com/49124888/145926086-b28be635-c3d9-4d10-8803-8f288a1ff46e.png)
 
-![image](https://user-images.githubusercontent.com/49124888/144489574-93be027a-a100-476b-ad20-f9b16ad6ddde.png)
-
-![image](https://user-images.githubusercontent.com/49124888/144489616-25b7c2a2-feac-4b22-af7f-6c9c24e69a77.png)
-
-![image](https://user-images.githubusercontent.com/49124888/144489757-4489ee1e-b27d-4806-8d40-11f860d37efa.png)
-
-![image](https://user-images.githubusercontent.com/49124888/145469851-dc894c54-32da-417c-b383-01a7ed8c1d08.png)
-
-![image](https://user-images.githubusercontent.com/49124888/145469866-ad37bf24-e366-4d63-a81e-c145f619a396.png)
-
+`
+yay lxsession
+`
 
 
 
