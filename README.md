@@ -60,6 +60,8 @@ Most of us have  key in laptop !
 An authentication agent is used to make the user of a session prove that the user of the session really is the user (by authenticating as the user) or an administrative user (by authenticating as an administrator).
 
 Visual Representation :
+
+
 ![image](https://user-images.githubusercontent.com/49124888/145926086-b28be635-c3d9-4d10-8803-8f288a1ff46e.png)
 
 `
